@@ -1,0 +1,53 @@
+html {
+  font-size: 10px;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a {
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: #0d0d0d;
+}
+
+body {
+  width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-left: 6px solid #663300;
+  border-right: 6px solid #663300; 
+ /* background-color: #ffe699; */
+ background-color: #996633;
+}
+
+canvas {
+  padding: 0;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  display: block;
+  background: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;  
+  color: black;
+}

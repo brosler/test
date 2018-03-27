@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My test page</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>Interactive Page</h1>
+  <p>Enter the side-length of the grid. Number must be between 2 and 50, inclusive.
+    Hit the redraw button to reset the grid to its last size. Click and drag to mark
+    walls, or remove walls. Hit Solve to find the least cost path from the top left to the bottom right.
+    The solution is derived using the <a href="https://en.wikipedia.org/wiki/A*_search_algorithm ">A* algorithm</a>
+    and avoids any user created barriers.</p>
+    <p id="inputDescr">Enter one number, it will be used as both Length and Width</p>
+    <input type="text" name="dimensions" id="dimensions" placeholder="dimensions">
+    <button type="button" id="enter">Enter</button>
+    <button type="button" id="solve" style = "margin: 0 0 0 10px">Solve</button><br>
+    <button type="button" id="restart">Redraw</button>
+    <p>Hit the snake button to play snake. Snake uses the WASD keys for movemont, and
+      ends the game if you touch the edges. If you would like to wraparound the screen when hitting
+      the edges, hit the wraparound button. Hitting the snake button again also pauses/plays the game.
+    </p>
+    <button type="button" id="snake">Snake</button>
+    <button type="button" id="wraparound">Wraparound - off</button>
+    <p id="errorText">Message Text: </p>
+  <canvas id="myCanvas" width="600" height="600" style="border:5px solid #000000;"></canvas>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
